@@ -7,7 +7,7 @@ It is a webservice that fetches recipes by the id and stores the frequent access
 mvn spring-boot:run
 ```
 
-## What is does?
+## What it does?
 
 The following is the sample webservice to get the recipe as a JSON
 
