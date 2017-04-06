@@ -39,7 +39,7 @@ public class RecipeService {
 
     @CacheResult
     public Recipe getRecipe(int id){
-        LOGGER.info("ssn " + id + " not found in cache. TimeStamp: {}", new Date());
+        LOGGER.info("Recipe {} not found in cache. TimeStamp: {}", id, new Date());
         switch (id){
             case 101:
                 return new Recipe(101,"Chicken");
