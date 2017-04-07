@@ -20,7 +20,7 @@ public class RecipeRestController {
     }
 
     @RequestMapping("/recipe")
-    Recipe recipe(@RequestParam(value = "id",defaultValue = "101") String id) {
-        return recipeService.getRecipe(Integer.valueOf(id));
+    Recipe recipe(@RequestParam(value = "recipeCode",defaultValue = "101") String recipeCode) {
+        return recipeService.getRecipe(recipeCode);
     }
 }
