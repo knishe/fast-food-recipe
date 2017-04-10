@@ -33,6 +33,10 @@ public class RecipeService {
         this.recipeRepository = recipeRepository;
     }
 
+    public void registerRecipe(Recipe recipe) {
+        throw new UnsupportedOperationException("Not implemented");
+    }
+
     @Component
     public static class CachingSetup implements JCacheManagerCustomizer {
 
