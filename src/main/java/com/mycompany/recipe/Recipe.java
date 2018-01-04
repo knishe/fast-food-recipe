@@ -8,6 +8,7 @@ import java.io.Serializable;
 /**
  * @author Nishanthan Krishnakumar
  * @version 1.0
+ * Stores recipes
  */
 @Entity
 public class Recipe implements Serializable{
