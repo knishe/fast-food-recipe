@@ -19,12 +19,12 @@ public class RecipeRestController {
         this.recipeService = recipeService;
     }
 
-    @RequestMapping("/recipe")
+    @RequestMapping("/recipes")
     Recipe recipe(@RequestParam(value = "recipeCode",defaultValue = "101") String recipeCode) {
         return recipeService.getRecipe(recipeCode);
     }
 
-    @RequestMapping("/register")
+    @RequestMapping("/registers")
     void registerRecipe(@RequestParam(value = "recipe") Recipe recipe){
         recipeService.registerRecipe(recipe);
     }
