@@ -1,5 +1,5 @@
 # fast-food-recipe
-It is a webservice that fetches recipes by the id and keeps the frequent accessed recipe within a cache
+It is a webservice that fetches recipes and keeps the frequent accessed recipe within a cache
 
 ## How to run
 
